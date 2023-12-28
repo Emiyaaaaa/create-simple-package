@@ -1,0 +1,10 @@
+{
+  "name": "create-simple-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-simple-package": "./create-simple-package.sh"
+  },
+  "author": "Haozheng Li"
+}
