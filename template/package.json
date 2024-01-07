@@ -1,15 +1,17 @@
 {
-  "name": "project-name",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
-  "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
-  },
-  "author": "Haozheng Li",
-  "devDependencies": {
-    "@emiyaaaaa/tsconfig": "^1.0.0",
-    "@biomejs/biome": "1.4.1"
-  }
+	"name": "project-name",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"author": "Haozheng Li",
+	"devDependencies": {
+		"typescript": "latest",
+		"@emiyaaaaa/tsconfig": "^1.0.0",
+		"@biomejs/biome": "1.4.1"
+	}
 }
