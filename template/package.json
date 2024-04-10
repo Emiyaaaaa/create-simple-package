@@ -4,6 +4,8 @@
 	"description": "",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
+	"homepage": "https://github.com/emiyaaaaa/project-name",
+	"license": "ISC",
 	"scripts": {
 		"build": "tsc",
 		"prepublishOnly": "npm run build"

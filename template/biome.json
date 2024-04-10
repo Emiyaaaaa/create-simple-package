@@ -3,6 +3,17 @@
 		"enabled": true,
 		"formatWithErrors": true
 	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"suspicious": {
+				"noExplicitAny": "warn"
+			},
+			"style": {
+				"noNonNullAssertion": "warn"
+			}
+		}
+	},
 	"javascript": {
 		"formatter": {
 			"semicolons": "asNeeded"
