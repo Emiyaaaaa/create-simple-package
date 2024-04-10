@@ -1,14 +1,14 @@
 {
   "name": "create-simple-package",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
-	"homepage": "https://github.com/emiyaaaaa/create-simple-package",
-	"license": "ISC",
-	"scripts": {
-		"build": "tsc",
-		"prepublishOnly": "npm run build"
-	},
-	"author": "Haozheng Li",
+  "homepage": "https://github.com/emiyaaaaa/create-simple-package",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Haozheng Li",
   "bin": {
     "create-simple-package": "./create-simple-package.sh"
   }
