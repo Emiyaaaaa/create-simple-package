@@ -5,7 +5,6 @@
   "homepage": "https://github.com/emiyaaaaa/create-simple-package",
   "license": "ISC",
   "scripts": {
-    "prepublishOnly": "release"
   },
   "author": "Haozheng Li",
   "bin": {
