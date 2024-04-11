@@ -21,7 +21,7 @@ P0="$0"
 CURRENT_PATH=${P0//.bin\//}
 
 # COPY PROJECT DIRECT
-cp -r $CURRENT_PATH/template/* "$PROJECT_NAME"
+cp -r -n $CURRENT_PATH/template "$PROJECT_NAME"
 
 # CHANGE PACKAGE NAME IN PACKAGE.JSON
 sed -i '' "s/project-name/$PROJECT_NAME/g" "$PROJECT_NAME/package.json"
