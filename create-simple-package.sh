@@ -7,15 +7,18 @@ if [ -z "$PROJECT_NAME" ]; then
 fi
 
 if [ -e "$PROJECT_NAME" ]; then
-  echo "Directory already exists"
-  exit 1
+  echo "Directory already exists, you want continue? (y/n)"
+  read -p "Enter your choice: " CHOICE
+  if [ "$CHOICE" != "y" ]; then
+    exit 1
+  fi
+else
+  mkdir "$PROJECT_NAME"
 fi
-
-mkdir "$PROJECT_NAME"
 
 P0="$0"
 
-CURRENT_PATH=${P0//.bin\//};
+CURRENT_PATH=${P0//.bin\//}
 
 # COPY PROJECT DIRECT
 cp -r $CURRENT_PATH/template/* "$PROJECT_NAME"
